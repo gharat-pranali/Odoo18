@@ -1,0 +1,192 @@
+odoolive@172.16.0.239  65937,routePDERp@21 routePDERp@21 routePDERp@21
+routepod18_uat
+routePDERp@21
+routePDERp@21
+routePDERp@21
+
+routePDERp@21
+shashank verma
+  12:18 PM
+http://172.18.200.107:4444
+12:18
+passwd: Admin@18
+
+ssh odoo@172.16.0.239
+passwoed : routepass
+
+source /srv/sandbox/env3.10sandbox/bin/activate
+ 1242  cd /srv/sandbox/shashank/Project/odoo16.0/
+ 1243  ./odoo-bin -c /srv/sandbox/shashank/GIT14april/14april.conf 
+ 1244  source /srv/sandbox/env3.10sandbox/bin/activate
+ 1245  cd /srv/sandbox/shashank/Project/odoo16.0/
+ 1246  ./odoo-bin -c /srv/ROUTEPOD18/PRODUCTION/14april/14april.conf 
+ 1247  ./odoo-bin -c /srv/sandbox/shashank/GIT14april/14april.conf 
+
+
+COPY (select id,name,employee_number  from hr_employee where id in (select employee_id from hr_payslip_line ) and work_contact_id is null;) TO '/srv/ROUTEPOD18/PRODUCTION/22april/employee_missing_partner.csv' DELIMITER ',' CSV HEADER;
+
+53376,)
+record****** res.partner(14589,)
+record****** res.partner(53376,
+srv/sandbox/shashank/Project/enterprise16.0/account_reports/models/account_report.py
+/srv/sandbox/shashank/GIT15oct/15oct.conf
+
+password=Pranali@2024
+
+odoolive@172.16.0.239 routePDERp@21 65937,
+
+ALTER USER postgres WITH PASSWORD 'routepass';
+
+createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt 'pranali.gharat'
+
+psql ALTER USER 'pranali.gharat WITH SUPERUSER;
+172.16.0.239@odoolive routePDERp@21
+
+'Route Mobile LLC','Routesms Solutions FZE'
+
+
+./odoo-bin --addons-path=/home/pranali.gharat/Downloads/Odoo16/venv3.10/odoo16.0/addons,/home/pranali.gharat/Downloads/Odoo16/venv3.10/odoo16.0/odoo/addons,/home/pranali.gharat/Downloads/Odoo16/venv3.10/enterprise16.0,/home/pranali.gharat/Downloads/Odoo16/venv3.10/GIT/routepod16/routemobile_addons,/home/pranali.gharat/Downloads/Odoo16/venv3.10/GIT/routepod16/community_addons,/home/pranali.gharat/Downloads/Odoo16/venv3.10/GIT/routepod16/dian,/home/pranali.gharat/Downloads/Odoo16/venv3.10/GIT/routepod16/newmodules --db-filter=rml_15sept
+
+
+sudo dnf install python-dev python3-dev libxml2-dev libxslt1-dev
+
+zlib1g-dev libsasl2-dev libldap2-dev build-essential libssl-dev libffi-dev libmysqlclient-dev
+
+libjpeg-dev libpq-dev libjpeg8-dev liblcms2-dev libblas-dev libatlas-base-dev
+
+
+
+./odoo-bin --addons-path=/home/pranali.gharat/Documents/Budget/odoo16.0/addons,/home/pranali.gharat/Documents/Budget/odoo16.0/odoo/addons,/home/pranali.gharat/Documents/Budget/enterprise16.0,/home/pranali.gharat/Documents/Budget/routepod16/routemobile_addons,/home/pranali.gharat/Documents/Budget/routepod16/community_addons,/home/pranali.gharat/Documents/Budget/routepod16/dian,/home/pranali.gharat/Documents/Budget/routepod16/newmodules --xmlrpc-port=8099 --db-filter=budget
+
+systemctl start 12.service
+AED,BDT,EUR,INR,LKR,NGN,SAR,USD
+
+
+
+select * from purchase_order where id=6874;
+  id  | origin |        create_date        | write_uid | currency_id |     date_order      | partner_id | dest_address_id | create_uid | amount_untaxed | picking_type_id | message_last_post | company_id |  name   | amount_tax |  state   |
+ openupgrade_legacy_13_0_date_approve | incoterm_id | payment_term_id |         write_date         | partner_ref | fiscal_position_id | amount_total | invoice_status |    date_planned     |                       notes                     
+   | group_id | requisition_id | hod_user_id | invoice_count | picking_count | openupgrade_legacy_12_0_activity_date_deadline | access_token | message_main_attachment_id | user_id | category_type |    date_approve     | currency_rate | l1
+0n_in_journal_id | priority | date_calendar_start | mail_reminder_confirmed | mail_reception_confirmed | effective_date | l10n_in_gst_treatment | purchase_group_id | incoterm_location | receipt_status | auto_sale_order_id | auto_generated
+ 
+------+--------+---------------------------+-----------+-------------+---------------------+------------+-----------------+------------+----------------+-----------------+-------------------+------------+---------+------------+----------+
+--------------------------------------+-------------+-----------------+----------------------------+-------------+--------------------+--------------+----------------+---------------------+-------------------------------------------------
+---+----------+----------------+-------------+---------------+---------------+------------------------------------------------+--------------+----------------------------+---------+---------------+---------------------+---------------+---
+-----------------+----------+---------------------+-------------------------+--------------------------+----------------+-----------------------+-------------------+-------------------+----------------+--------------------+---------------
+-
+
+ hr.employee(46376, 406, 28235, 46857, 34188, 772, 7719, 893, 4377, 675, 49739, 37085, 37039, 4420, 37044, 28241, 309, 46327, 10860, 12301, 10856, 47859, 35476, 48630, 9893, 41386, 852, 518, 391, 43909, 38484, 32699, 10859, 13901, 17502, 331, 375, 31521, 455, 537, 46858, 37041, 13583, 834, 27176, 36244, 860, 9887, 432, 48077, 37035, 38865, 27369, 10644, 524, 562, 32700, 322, 9953, 297, 311, 4372, 7086, 387, 397, 554, 4396, 7628, 607, 703)}
+
+sudo rm -r /var/cache/dnf
+sudo yum remove postgresql     
+sudo rm /var/lib/pgsql
+   sudo yum remove postgres\*
+
+dnf --disablerepo=* -y install https://download.postgresql.org/pub/repos/yum/reporpms/F-39-x86_64/pgdg-fedora-repo-latest.noarch.rpm
+
+sudo yum --disablerepo=* -y https://download.postgresql.org/pub/repos/yum/reporpms/F-39-x86_64/pgdg-fedora-repo-latest.noarch.rpm
+  sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-39-x86_64/pgdg-fedora-repo-latest.noarch.rpm
+dnf --disablerepo=* -y install postgresql16-server
+  938    sudo dnf install -y postgresql16-server
+  939    sudo /usr/pgsql-16/bin/postgresql-16-setup initdb
+  940   sudo systemctl enable postgresql-16
+  941    sudo systemctl start postgresql-16
+
+
+
+ /etc/yum.repos.d/CentOS-Base.repo
+95ua-7ti3-8d33
+
+pip install geoip2
+
+pip install xlrd==1.2.0
+
+
+
+odoo18 y5cg-sfji-vtfi
+
+
+./odoo-bin upgrade_code --addons-path /home/pranali.gharat/GIT18/new_addons
+
+
+
+source /home/pranali.gharat/Documents/Odoo16/env3.10/bin/activate
+  467  cd /home/pranali.gharat/Documents/Odoo16/odoo-16.0
+  468  ./odoo-bin --addons-path=/home/pranali.gharat/Documents/Odoo16/odoo-16.0/addons,/home/pranali.gharat/Documents/Odoo16/odoo-16.0/odoo/addons,/home/pranali.gharat/Documents/Odoo16/GIT/routepod16/community_addons,/home/pranali.gharat/Documents/Odoo16/GIT/routepod16/dian,/home/pranali.gharat/Documents/Odoo16/GIT/routepod16/newmodules,/home/pranali.gharat/Documents/Odoo16/GIT/routepod16/routemobile_addons,/home/pranali.gharat/Documents/Odoo16/enterprise16.0 --db-filter=rml_15sept 
+
+
+sudo yum remove postgresql
+ sudo rm /var/lib/pgsql
+ sudo yum remove postgres\*
+https://docs.fedoraproject.org/en-US/quick-docs/postgresql/
+
+
+
+sudo dnf install postgresql-server postgresql-contrib
+sudo systemctl enable postgresql
+sudo postgresql-setup --initdb --unit postgresql
+sudo systemctl start postgresql
+
+
+
+
+
+
+sudo dnf install -y postgresql
+ 1019  sudo systemctl enable postgresql-16
+ 1020  sudo dnf install -y postgresql
+ 1021  sudo dnf install postgresql-server postgresql-contrib
+ 1022  sudo systemctl enable postgresql
+ 1023  sudo postgresql-setup --initdb --unit postgresql
+ 1024  sudo systemctl start postgresql
+
+
+1537
+
+select emp.id,emp.name,emp.employee_number,emp.create_date from hr_payslip as slip left join hr_employee as emp on slip.employee_id=emp.id where emp.work_contact_id is null;
+
+
+COPY (select emp.id,emp.name,emp.employee_number,emp.create_date from hr_payslip as slip left join hr_employee as emp on slip.employee_id=emp.id where emp.work_contact_id is null)  TO '/home/pranali.gharat/sandbox_18/employee_missing_partner.csv' DELIMITER ',' CSV HEADER;
+
+ 
+
+source /data/ROUTEPOD18/env3.11/bin/activate
+  224  cd /data/ROUTEPOD18/PROJECT/odoo/
+  225  ./odoo-bin -c /data/ROUTEPOD18/routepod18.conf 
+
+update account_move_line set next_action_date='2025-06-24' where date_maturity < '2025-06-17' and  id in (SELECT l.id FROM account_move_line AS l LEFT JOIN account_account AS a ON (l.account_id=a.id) WHERE (l.reconciled IS FALSE) AND (a.account_type='asset_receivable') AND (l.partner_id is NOT NULL) AND (a.deprecated='f') AND (l.debit > 0) AND (l.next_action_date is NULL) AND (l.blocked IS FALSE))
+
+
+https://www.cybrosys.com/blog/how-to-setup-odoo-18-development-environment-using-pycharm-in-ubuntu-22-04
+
+firewall-cmd --zone=public --permanent --add-port 8888/tcp
+  361  sudo firewall-cmd --zone=public --permanent --add-port 8888/tcp
+  362  firewall-cmd --reload
+  363  sudo firewall-cmd --reload
+  364  sudo firewall-cmd --list-all
+
+
+https://apidoc-ksa.marmin.ai/#tag/Invoice/operation/createStandardInvoice
+https://wiki.marmin.ai/en/api-integration
+
+https://stage.marmin.ai/signup
+:confirmations@routemobile.com
+Abc@12345
+
+cp -r routepod_1june routepod_9june
+
+
+source /data/SANDBOX/env3.9/bin/activate
+  962  cd /data/SANDBOX/PROJECT/odoo16.0/
+  963  ./odoo-bin -c /data/16.conf 
+
+
+
+                            <field name="parent_id"  widget="res_partner_many2one" placeholder="Company Name..." domain="[('is_company', '=', True)]" context="{'default_is_company': True, 'show_vat': True, 'default_user_id': user_id}" invisible="1"/>
+
+
+
+BILL/2025/0302
+
+BILL/2025/0267
+OP/2024/0205
