@@ -23,8 +23,12 @@ print("encoded_cipher_text",encoded_cipher_text)
 #url = 'http://localhost:1818//rmlwebsitelead/create/v1/'
 #header = {'Api-Key' : 'wZW5kaW5nJywgJ2lzX2xpdmUnOiBUcnV'}
 res = requests.post(url, headers = header,data=data)
-<<<<<<< HEAD
+
 print("res",res.text)
+
 print("adddddddddd")
+
+print("addddddd")
+
 print("res111111112222",res.text)
 
